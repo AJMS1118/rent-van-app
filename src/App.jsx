@@ -2,8 +2,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { About } from "./pages/About";
-import "./App.css";
 import { VanPage } from "./pages/VanPage";
+import "../server";
+import "./App.css";
 
 function App() {
 	return (
